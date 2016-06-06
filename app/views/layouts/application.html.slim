@@ -1,0 +1,36 @@
+doctype html
+html
+	head
+	  title ExecutorOfTasks
+	  == stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+	  == javascript_include_tag 'application', 'data-turbolinks-track' => true
+	  == csrf_meta_tags
+
+	body
+
+		nav.navbar.navbar-inverse.navbar-fixed
+		  	.container-fluid
+		  		.navbar-header
+      				span.navbar-brand
+      					|Executor of tasks
+
+  				form.navbar-form.navbar-right role="search"
+
+					.form-group
+						input.form-control type="text"  placeholder="Login..."
+					.form-group
+						input.form-control type="text"  placeholder="Password..."
+					
+					.form-group
+						button.btn.btn-success type="submit" 
+							|Sign in
+					.form-group
+						button.btn.btn-primary type="submit" 
+							|Register
+
+		.container
+			- flash.each do |key, value|
+				.alert
+					=value
+
+		== yield 
