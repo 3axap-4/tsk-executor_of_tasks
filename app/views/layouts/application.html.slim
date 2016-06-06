@@ -14,19 +14,19 @@ html
       				span.navbar-brand
       					|Executor of tasks
 
-  				form.navbar-form.navbar-right role="search"
 
-					.form-group
-						input.form-control type="text"  placeholder="Login..."
-					.form-group
-						input.form-control type="text"  placeholder="Password..."
-					
-					.form-group
-						button.btn.btn-success type="submit" 
-							|Sign in
-					.form-group
-						button.btn.btn-primary type="submit" 
-							|Register
+  				form.navbar-form.navbar-right role="search"
+	  				-if user_signed_in?
+	  					|Здравствуйте!
+	  					.form-group
+							=link_to(content_tag(:span, 'Выйти', class: "span glyphicon.glyphicon-log-out"), 
+							destroy_user_session_path, method: :delete, class: "button btn btn-danger")
+								
+	  				-else
+						.form-group
+							=link_to('Войти', new_user_session_path, class: "button btn btn-success")
+						.form-group
+							=link_to('Регистрация', new_user_registration_path, class: "button btn btn-primary")
 
 		.container
 			- flash.each do |key, value|

@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
 	def show		
 	end
+
+	def sign_in
+		render "/registration/sessions/new"
+	end
 end
