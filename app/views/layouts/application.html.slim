@@ -30,7 +30,10 @@ html
 
 		.container
 			- flash.each do |key, value|
-				.alert
+				div class="alert alert-#{ key=='alert'? 'danger' : 'success'}"
+					button.close type="button" data-dismiss="alert" aria-label="Close"
+						span aria-hidden="true"
+							|&times;
 					=value
 
 		== yield 

@@ -1,11 +1,10 @@
 class PagesController < ApplicationController
+
+	before_filter :check_sign_in, only: [:control_panel]
+
 	def index		
 	end
 
-	def show		
-	end
-
-	def sign_in
-		render "/registration/sessions/new"
+	def control_panel		
 	end
 end

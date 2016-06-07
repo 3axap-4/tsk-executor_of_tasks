@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :pages
+  #resources :pages
+  match 'pages/index' => 'pages#index', :via => :get
+  match 'pages/control_panel' => 'pages#control_panel', :via => :get
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
