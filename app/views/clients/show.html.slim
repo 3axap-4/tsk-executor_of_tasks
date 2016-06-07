@@ -1,0 +1,27 @@
+p#notice = notice
+
+p
+  strong New:
+  = @client.new
+p
+  strong Create:
+  = @client.create
+p
+  strong Edit:
+  = @client.edit
+p
+  strong Update:
+  = @client.update
+p
+  strong Destroy:
+  = @client.destroy
+p
+  strong Index:
+  = @client.index
+p
+  strong Show:
+  = @client.show
+
+= link_to 'Edit', edit_client_path(@client)
+'|
+= link_to 'Back', clients_path

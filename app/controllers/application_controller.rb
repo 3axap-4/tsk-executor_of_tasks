@@ -7,6 +7,8 @@ class ApplicationController < ActionController::Base
   		pages_control_panel_url
 	end
 
+	protected 
+
 	def check_sign_in
 		redirect_to :new_user_session if !user_signed_in?
 	end

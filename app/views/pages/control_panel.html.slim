@@ -1,1 +1,7 @@
-h2 Ufff
+-if (!current_user.nil? && current_user.client.nil?)
+	.col-mid-6
+		.alert.alert-danger role="alert"
+			|Для данного пользователя не создан профиль, создание задач будет невозможно.
+			| Для продолжения работы
+			=link_to " заполните профиль",  clients_new_path
+   
