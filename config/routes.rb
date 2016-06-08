@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :tasks
+  resources :task_statuses
   resources :clients
   devise_for :users
   #resources :pages

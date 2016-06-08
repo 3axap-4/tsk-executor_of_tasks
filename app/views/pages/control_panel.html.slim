@@ -1,4 +1,4 @@
--if (!current_user.nil? && current_user.client.nil?)
+-if (!current_user.nil? && current_user.client.empty?)
 	.col-mid-6
 		.alert.alert-danger role="alert"
 			|Для данного пользователя не создан профиль, создание задач будет невозможно.
@@ -15,9 +15,18 @@
 
 			-if (!current_user.nil? && !current_user.client.nil?)
 				li.list-group-item
-					=link_to "Редактировать профиль",  
-					edit_client_path(current_user.client.id)
+					=link_to "Профили",  
+					clients_path
 
 			li.list-group-item
 			  	=link_to "Клиенты", 
 			  	clients_path
+
+		  	li.list-group-item
+			  	=link_to "Задачи", 
+			  	tasks_path
+
+		  	li.list-group-item
+			  	=link_to "Статусы задач", 
+			  	task_statuses_path
+

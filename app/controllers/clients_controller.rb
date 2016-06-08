@@ -5,11 +5,11 @@ class ClientsController < ApplicationController
   # GET /clients
   # GET /clients.json
   def index
-    #if(current_user.is_admin?)
+    if(current_user.is_admin?)
       @clients = Client.all
-    #else
-      #redirect_to pages_control_panel_path
-    #end
+    else
+      @clients = Client.find_by_user_id(current_user.id)
+    end
   end
 
   # GET /clients/1

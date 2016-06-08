@@ -1,0 +1,12 @@
+.container
+  .row.clearfix
+    .col-md-6.col-md-offset-3.column
+    	.jumbotron
+			p#notice = notice
+
+			p
+			  strong Наименование
+			  br
+			  = @task_status.name
+
+			= link_to 'Назад', task_statuses_path, class: "btn btn-default"

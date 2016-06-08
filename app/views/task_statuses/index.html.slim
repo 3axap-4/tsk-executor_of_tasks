@@ -1,0 +1,23 @@
+
+.container
+  h1 Статусы задач
+  = link_to 'Добавить', new_task_status_path, class: "btn btn-success"
+  br
+  br
+  table.table.table-bordered
+    thead
+      tr
+        th Наименование
+        th
+        th
+
+    tbody
+      - @task_statuses.each do |task_status|
+        tr
+          td = task_status.name
+          td.text-center = link_to 'Изменить', edit_task_status_path(task_status), 
+                class: "btn btn-default"
+          td.text-center = link_to 'Удалить', task_status, 
+                data: {:confirm => 'Are you sure?'}, :method => :delete,
+                class: "btn btn-danger"
+
