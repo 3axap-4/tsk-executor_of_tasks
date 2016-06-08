@@ -1,27 +1,26 @@
-p#notice = notice
+.container
+  .row.clearfix
+    .col-md-6.col-md-offset-3.column
+      .jumbotron
+        p
+          strong 
+            | Наименование: 
+            = @client.name
+        p
+          strong 
+            |ФИО ответственного лица: 
+            = @client.fio
+        p
+          strong 
+            |Сайт: 
+            = @client.site
+        p
+          strong 
+            |Описание: 
+            = @client.description
+        p
+          strong 
+            |Последнее посещение:
+            = @client.last_in
 
-p
-  strong New:
-  = @client.new
-p
-  strong Create:
-  = @client.create
-p
-  strong Edit:
-  = @client.edit
-p
-  strong Update:
-  = @client.update
-p
-  strong Destroy:
-  = @client.destroy
-p
-  strong Index:
-  = @client.index
-p
-  strong Show:
-  = @client.show
-
-= link_to 'Edit', edit_client_path(@client)
-'|
-= link_to 'Back', clients_path
+        = link_to 'Назад', clients_path, class: "btn btn-default"

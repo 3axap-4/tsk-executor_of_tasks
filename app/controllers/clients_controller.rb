@@ -1,12 +1,15 @@
 class ClientsController < ApplicationController
 
-  before_action :set_client, only: [:show, :edit, :update, :destroy]
   before_action :check_sign_in, only: [:index, :show, :new, :create, :edit, :update, :destroy]
-
+  before_action :set_client, only: [:show, :edit, :update, :destroy]
   # GET /clients
   # GET /clients.json
   def index
-    @clients = Client.all
+    #if(current_user.is_admin?)
+      @clients = Client.all
+    #else
+      #redirect_to pages_control_panel_path
+    #end
   end
 
   # GET /clients/1
@@ -21,6 +24,7 @@ class ClientsController < ApplicationController
 
   # GET /clients/1/edit
   def edit
+
   end
 
   # POST /clients
@@ -67,7 +71,12 @@ class ClientsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_client
-      @client = Client.find(params[:id])
+      @client = Client.find_by_user_id(current_user.id)
+
+      if(@client.nil?)
+        redirect_to action: "new"
+      end
+    
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

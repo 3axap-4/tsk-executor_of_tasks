@@ -3,5 +3,21 @@
 		.alert.alert-danger role="alert"
 			|Для данного пользователя не создан профиль, создание задач будет невозможно.
 			| Для продолжения работы
-			=link_to " заполните профиль",  clients_new_path
-   
+			=link_to " заполните профиль",  new_client_path
+
+.container
+	.col-lg-8
+		ul.list-group
+
+			li.list-group-item
+			  	=link_to "Редактировать настройки", 
+			  	edit_user_registration_path(current_user)
+
+			-if (!current_user.nil? && !current_user.client.nil?)
+				li.list-group-item
+					=link_to "Редактировать профиль",  
+					edit_client_path(current_user.client.id)
+
+			li.list-group-item
+			  	=link_to "Клиенты", 
+			  	clients_path

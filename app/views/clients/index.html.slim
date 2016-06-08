@@ -1,33 +1,43 @@
-h1 Listing clients
-
-table
-  thead
-    tr
-      th New
-      th Create
-      th Edit
-      th Update
-      th Destroy
-      th Index
-      th Show
-      th
-      th
-      th
-
-  tbody
-    - @clients.each do |client|
+.container
+  h2 Клиенты
+  br
+  = link_to 'Добавить', new_client_path, class: "btn btn-success"
+  br
+  br
+  table.table.table-bordered
+    thead
       tr
-        td = client.new
-        td = client.create
-        td = client.edit
-        td = client.update
-        td = client.destroy
-        td = client.index
-        td = client.show
-        td = link_to 'Show', client
-        td = link_to 'Edit', edit_client_path(client)
-        td = link_to 'Destroy', client, data: {:confirm => 'Are you sure?'}, :method => :delete
+        th Наименование
+        th ФИО представителя
+        th Сайт
+        th Описание
+        th Последне посещение
+        th
+        th
+        th
 
-br
+    tbody
+      - @clients.each do |client|
+        tr
+          td = client.name
+          td = client.fio
+          td = client.site
+          td = client.description
+          td = client.last_in
 
-= link_to 'New Client', new_client_path
+          td.text-center 
+            = link_to 'Просмотр', client, 
+            class: "btn btn-default"
+
+          td.text-center 
+            = link_to 'Редактировать', edit_client_path(client),
+            class: "btn btn-default"
+
+          td.text-center 
+            = link_to 'Удалить', client, 
+            data: {:confirm => 'Вы уверены?'}, :method => :delete, 
+            class: "btn btn-danger"
+
+
+
+

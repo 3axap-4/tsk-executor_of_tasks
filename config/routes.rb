@@ -1,19 +1,5 @@
 Rails.application.routes.draw do
   resources :clients
-  get 'clients/new'
-
-  get 'clients/create'
-
-  get 'clients/edit'
-
-  get 'clients/update'
-
-  get 'clients/destroy'
-
-  get 'clients/index'
-
-  get 'clients/show'
-
   devise_for :users
   #resources :pages
   match 'pages/index' => 'pages#index', :via => :get

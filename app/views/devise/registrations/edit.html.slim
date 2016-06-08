@@ -1,0 +1,62 @@
+.container
+  .row.clearfix
+    .col-md-6.col-md-offset-3.column
+      .jumbotron
+
+        h2 Парметры
+
+        = form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f|
+          = devise_error_messages!
+
+          .field
+            = f.label :email
+            br
+            = f.email_field :email, autofocus: true, class: "form-control"
+
+          - if devise_mapping.confirmable? && resource.pending_reconfirmation?
+            div
+              |Currently waiting confirmation for: 
+                = resource.unconfirmed_email 
+          br
+          .field
+            = f.label "Пароль"
+            br
+            = f.password_field :password, autocomplete: "off", class: "form-control"
+            i 
+              |(оставьте не заполненным если хотите оставить прежний)
+
+          br
+          .field
+            = f.label "Пароль подтверждение"
+            br
+            = f.password_field :password_confirmation, autocomplete: "off", class: "form-control"
+
+          br
+          .field
+            = f.label "Текущий пароль"
+            br
+
+
+            = f.password_field :current_password, autocomplete: "off", class: "form-control"
+            i
+              |(нам нужен ваш текущий пароль для подтверждения изменений)
+
+          br
+          .field
+            = f.label "Является администратором"
+            br
+            = f.check_box :is_admin
+
+          br
+          .actions
+            = f.submit "Сохранить", class: "btn btn-success"
+
+        br
+        p 
+          |Остались недовольны? 
+          = button_to "Отмена регистрации", 
+          registration_path(resource_name), 
+          data: { confirm: "Вы уверены?" }, method: :delete,
+          class: "btn btn-danger"
+
+        = link_to "Назад", :back 
