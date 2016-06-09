@@ -7,9 +7,15 @@
           li = message
 
   .field
-    = f.label :title
-    = f.text_field :title
+    = f.label "Название"
+    = f.text_field :title, class: "form-control"
+  br
   .field
-    = f.label :description
-    = f.text_field :description
-  .actions = f.submit
+    = f.label "Описание"
+    = f.text_area :description, class: "form-control"
+  br
+  .field
+    = f.label "Профиль"
+    = f.collection_select :client_id, @clients, :id, :name, {},class: "form-control"
+  br
+  .actions = f.submit "Сохранить", class: "btn btn-success"

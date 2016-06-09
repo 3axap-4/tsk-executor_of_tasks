@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :settings
   resources :tasks
   resources :task_statuses
   resources :clients

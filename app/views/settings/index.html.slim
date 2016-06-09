@@ -1,0 +1,31 @@
+.container
+  h2 Настройки системы
+  = link_to 'Создать', new_setting_path, class: "btn btn-success"
+  '
+  = link_to 'Назад', pages_control_panel_path, class: "btn btn-default"
+  br
+  br
+  table.table.table-bordered
+    thead
+      tr
+        th Наименование
+        th Значение
+        th Описание
+        th
+        th
+        th
+
+    tbody
+      - @settings.each do |setting|
+        tr
+          td = setting.name
+          td = setting.value
+          td = setting.description
+          td.texct-center = link_to 'Изменить', edit_setting_path(setting), 
+                            class: "btn btn-default"
+          td.texct-center = link_to 'Удалить', setting, data: {:confirm => 'Вы уверены что хотите удалить выбранный параметр?'}, 
+                            :method => :delete, class: "btn btn-danger"
+
+
+
+

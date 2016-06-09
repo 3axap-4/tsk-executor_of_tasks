@@ -1,0 +1,17 @@
+.container
+  .row.clearfix
+    .col-md-6.col-md-offset-3.column
+    	.jumbotron
+
+			p#notice = notice
+
+			p
+			  strong Наименование :
+			  br
+			  = @setting.name
+			p
+			  strong Значение :
+		   	  br
+			  = @setting.value
+
+			= link_to 'Назад', settings_path

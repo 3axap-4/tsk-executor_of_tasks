@@ -2,6 +2,8 @@
   h2 Клиенты
   br
   = link_to 'Добавить', new_client_path, class: "btn btn-success"
+  '
+  = link_to 'Назад',  pages_control_panel_url, class: "btn btn-default"
   br
   br
   table.table.table-bordered
@@ -17,6 +19,7 @@
         th
 
     tbody
+    -if !@clients.nil?
       - @clients.each do |client|
         tr
           td = client.name

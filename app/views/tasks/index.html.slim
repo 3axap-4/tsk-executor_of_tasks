@@ -1,23 +1,37 @@
-h1 Listing tasks
+.container
+  h1 Список задач
 
-table.table.table-bordered
-  thead
-    tr
-      th Title
-      th Description
-      th
-      th
-      th
-
-  tbody
-    - @tasks.each do |task|
+  = link_to 'Создать', new_task_path, class: "btn btn-success"
+  '
+  = link_to 'Назад', pages_control_panel_path, class: "btn btn-default"
+  br
+  br
+  table.table.table-bordered
+    thead
       tr
-        td = task.title
-        td = task.description
-        td = link_to 'Show', task
-        td = link_to 'Edit', edit_task_path(task)
-        td = link_to 'Destroy', task, data: {:confirm => 'Are you sure?'}, :method => :delete
+        th Номер
+        th Состояние
+        th Профиль
+        th Название
+        th Описание
+        th
+        th
+        th
 
-br
+    tbody
+    -if !@tasks.nil?
+      - @tasks.each do |task|
+        tr
+          td = task.id
+          td.text-center = task.task_status.nil? ? "" : task.task_status.name
+          td = task.client.name
+          td = task.title
+          td = task.description
+          td.text-center = link_to 'Просмотр', task, class: "btn btn-default"
+          td.text-center = link_to 'Изменение', edit_task_path(task), class: "btn btn-default"
+          td.text-center = link_to 'Удаление', task, 
+                          data: {:confirm => 'Вы уверены что хотите удалить выбранную задачу?'}, 
+                          :method => :delete, class: "btn btn-danger"
 
-= link_to 'New Task', new_task_path
+  br
+

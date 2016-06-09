@@ -10,7 +10,7 @@
 		ul.list-group
 
 			li.list-group-item
-			  	=link_to "Редактировать настройки", 
+			  	=link_to "Параметры входа", 
 			  	edit_user_registration_path(current_user)
 
 			-if (!current_user.nil? && !current_user.client.nil?)
@@ -30,3 +30,6 @@
 			  	=link_to "Статусы задач", 
 			  	task_statuses_path
 
+		  	li.list-group-item
+			  	=link_to "Настройки системы", 
+			  	settings_path

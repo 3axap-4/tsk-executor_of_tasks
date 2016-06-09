@@ -8,7 +8,7 @@ class ClientsController < ApplicationController
     if(current_user.is_admin?)
       @clients = Client.all
     else
-      @clients = Client.find_by_user_id(current_user.id)
+      @clients = Client.where("user_id = ?", current_user.id)
     end
   end
 
@@ -35,7 +35,7 @@ class ClientsController < ApplicationController
 
     respond_to do |format|
       if @client.save
-        format.html { redirect_to @client, notice: 'Client was successfully created.' }
+        format.html { redirect_to @client, notice: 'Профиль успешно довален.' }
         format.json { render :show, status: :created, location: @client }
       else
         format.html { render :new }
@@ -49,7 +49,7 @@ class ClientsController < ApplicationController
   def update
     respond_to do |format|
       if @client.update(client_params)
-        format.html { redirect_to @client, notice: 'Client was successfully updated.' }
+        format.html { redirect_to @client, notice: 'Профиль успешно изменен.' }
         format.json { render :show, status: :ok, location: @client }
       else
         format.html { render :edit }
@@ -63,7 +63,7 @@ class ClientsController < ApplicationController
   def destroy
     @client.destroy
     respond_to do |format|
-      format.html { redirect_to clients_url, notice: 'Client was successfully destroyed.' }
+      format.html { redirect_to clients_url, notice: 'Профиль успешно удален.' }
       format.json { head :no_content }
     end
   end
@@ -71,7 +71,7 @@ class ClientsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_client
-      @client = Client.find_by_user_id(current_user.id)
+      @client = Client.find_by_id(params[:id])
 
       if(@client.nil?)
         redirect_to action: "new"
