@@ -58449,3 +58449,2069 @@ Processing by TasksController#new as HTML
   Rendered tasks/_form.html.slim (31.2ms)
   Rendered tasks/new.html.slim within layouts/application (93.6ms)
 Completed 200 OK in 901ms (Views: 880.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-09 16:54:09 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (92.0ms)
+Completed 200 OK in 2847ms (Views: 2737.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 16:54:13 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 16:54:14 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 16:54:15 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 16:54:15 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 16:54:15 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 16:54:15 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 16:54:15 +0300
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 16:54:15 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 16:54:15 +0300
+
+
+Started GET "/users/sign_in" for ::1 at 2016-06-09 16:54:17 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (34.0ms)
+  Rendered devise/sessions/new.html.slim within layouts/application (531.4ms)
+Completed 200 OK in 1564ms (Views: 1503.9ms | ActiveRecord: 15.6ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-06-09 16:54:22 +0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mYtMTrA2mu6I6YdfHyuRZQIf2DyK+7g56oqL73P6cfICNP8/fnZ/iCA+D4rDnjtKxfgLN0IRZlc89dYaMG2p/A==", "user"=>{"email"=>"busad@ya.ru", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Войти"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "busad@ya.ru"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-06-09 07:54:45.311316"], ["current_sign_in_at", "2016-06-09 13:54:23.840075"], ["sign_in_count", 39], ["updated_at", "2016-06-09 13:54:23.846075"], ["id", 1]]
+  [1m[36m (47.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pages/control_panel
+Completed 302 Found in 1610ms (ActiveRecord: 51.0ms)
+
+
+Started GET "/pages/control_panel" for ::1 at 2016-06-09 16:54:24 +0300
+Processing by PagesController#control_panel as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Exists (0.0ms)[0m  [1mSELECT  1 AS one FROM "clients" WHERE "clients"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  Rendered pages/control_panel.html.slim within layouts/application (340.0ms)
+Completed 200 OK in 1159ms (Views: 1149.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 16:54:27 +0300
+Processing by TasksController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients"."id" FROM "clients" WHERE (user_id = 1)[0m
+  [1m[35mTask Load (0.0ms)[0m  SELECT "tasks".* FROM "tasks" WHERE (client_id IN (8,9))
+  [1m[36mClient Load (15.6ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE "clients"."id" IN (8)[0m
+  [1m[35mTaskStatus Load (0.0ms)[0m  SELECT "task_statuses".* FROM "task_statuses" WHERE "task_statuses"."id" IN (1)
+  Rendered tasks/index.html.slim within layouts/application (249.2ms)
+Completed 200 OK in 1172ms (Views: 1118.7ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 16:54:29 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_form.html.slim (153.6ms)
+  Rendered tasks/new.html.slim within layouts/application (237.6ms)
+Completed 200 OK in 955ms (Views: 937.0ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/tasks" for ::1 at 2016-06-09 16:54:32 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pQgb40qSq7Tc88/Y2YkDUyWAkTCW+Srsj8wHkKw0BaFVurtamb/4DmwWeqJI3HVafbh/wOitQwszu+6iLR4dUA==", "task"=>{"title"=>"", "description"=>"", "client_id"=>"8"}, "attachments"=>{"name"=>["Attachment"]}, "add_attachment"=>"Add ingredient"}
+  [1m[36mSetting Load (1.0ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = ? LIMIT 1[0m  [["name", "default_task_type_id"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "tasks" ("title", "description", "client_id", "task_status_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", ""], ["description", ""], ["client_id", 8], ["task_status_id", 1], ["created_at", "2016-06-09 13:54:32.466106"], ["updated_at", "2016-06-09 13:54:32.466106"]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Completed 500 Internal Server Error in 97ms (ActiveRecord: 10.0ms)
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/controllers/tasks_controller.rb:37:in `block in create'
+  app/controllers/tasks_controller.rb:35:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2198.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1987.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4577.3ms)
+
+
+Started POST "/tasks" for ::1 at 2016-06-09 16:54:41 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pQgb40qSq7Tc88/Y2YkDUyWAkTCW+Srsj8wHkKw0BaFVurtamb/4DmwWeqJI3HVafbh/wOitQwszu+6iLR4dUA==", "task"=>{"title"=>"", "description"=>"", "client_id"=>"8"}, "attachments"=>{"name"=>["Attachment"]}, "add_attachment"=>"Add ingredient"}
+  [1m[36mSetting Load (1.0ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = ? LIMIT 1[0m  [["name", "default_task_type_id"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "tasks" ("title", "description", "client_id", "task_status_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", ""], ["description", ""], ["client_id", 8], ["task_status_id", 1], ["created_at", "2016-06-09 13:54:41.159604"], ["updated_at", "2016-06-09 13:54:41.159604"]]
+  [1m[35m (7.0ms)[0m  commit transaction
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 10.0ms)
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/controllers/tasks_controller.rb:37:in `block in create'
+  app/controllers/tasks_controller.rb:35:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2220.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1985.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4460.3ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:01:00 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_form.html.slim (75.0ms)
+  Rendered tasks/new.html.slim within layouts/application (127.0ms)
+Completed 200 OK in 878ms (Views: 763.6ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:01:01 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:01:01 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:01:01 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:01:01 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:01:02 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:01:03 +0300
+
+
+Started POST "/tasks" for ::1 at 2016-06-09 17:01:06 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WBmt00+uhIKDbW1nfPIumK4vr13cX13XLRReCUvRIMKoqw1qnIPXODOI2B3tp1iR9hdBraILNDCRY7c7yvs4Mw==", "task"=>{"title"=>"", "description"=>"", "client_id"=>"8"}, "attachments"=>{"name"=>["Attachment"]}, "add_attachment"=>"Add ingredient"}
+  [1m[36mSetting Load (1.0ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = ? LIMIT 1[0m  [["name", "default_task_type_id"]]
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (3.0ms)[0m  [1mINSERT INTO "tasks" ("title", "description", "client_id", "task_status_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", ""], ["description", ""], ["client_id", 8], ["task_status_id", 1], ["created_at", "2016-06-09 14:01:06.647408"], ["updated_at", "2016-06-09 14:01:06.647408"]]
+  [1m[35m (5.0ms)[0m  commit transaction
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 11.0ms)
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/controllers/tasks_controller.rb:37:in `block in create'
+  app/controllers/tasks_controller.rb:35:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2519.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1793.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4239.2ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:03:05 +0300
+
+SyntaxError (C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:130: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/tasks_controller.rb:130: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2357.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2426.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4975.3ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:04:13 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients"."id" FROM "clients" WHERE (user_id = 1)
+  [1m[36mTask Load (1.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE (client_id IN (8,9))[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" IN (8)
+  [1m[36mTaskStatus Load (1.0ms)[0m  [1mSELECT "task_statuses".* FROM "task_statuses" WHERE "task_statuses"."id" IN (1)[0m
+  Rendered tasks/index.html.slim within layouts/application (116.0ms)
+Completed 200 OK in 966ms (Views: 860.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:04:14 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:04:14 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:04:14 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:04:14 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:04:15 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:04:16 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:04:16 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:04:16 +0300
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:04:16 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:04:16 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:04:20 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_form.html.slim (31.2ms)
+  Rendered tasks/new.html.slim within layouts/application (78.0ms)
+Completed 200 OK in 675ms (Views: 634.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2016-06-09 17:04:22 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UCTV+Ws0ybl52Uur6ypKHo3aW5Mxsa7C1COrifXUwhyglnVAuBmaA8k8/tF6fzwX1eK1Y0/lxyVoVEK7dP7a7Q==", "task"=>{"title"=>"", "description"=>"", "client_id"=>"8"}, "attachments"=>{"name"=>["Attachment"]}, "add_attachment"=>"Add ingredient"}
+  [1m[35mSetting Load (1.0ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = ? LIMIT 1  [["name", "default_task_type_id"]]
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  INSERT INTO "tasks" ("title", "description", "client_id", "task_status_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["title", ""], ["description", ""], ["client_id", 8], ["task_status_id", 1], ["created_at", "2016-06-09 14:04:22.444695"], ["updated_at", "2016-06-09 14:04:22.444695"]]
+  [1m[36m (6.0ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 12.0ms)
+
+NoMethodError (undefined method `each' for nil:NilClass):
+  app/controllers/tasks_controller.rb:39:in `block in create'
+  app/controllers/tasks_controller.rb:37:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2042.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2490.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (5488.3ms)
+
+
+Started POST "/tasks" for ::1 at 2016-06-09 17:05:28 +0300
+
+SyntaxError (C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:44: syntax error, unexpected keyword_else, expecting keyword_end
+      else
+          ^
+C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:96: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/tasks_controller.rb:44: syntax error, unexpected keyword_else, expecting keyword_end
+  app/controllers/tasks_controller.rb:96: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2637.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2508.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (5766.3ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:06:53 +0300
+
+SyntaxError (C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:45: syntax error, unexpected keyword_else, expecting keyword_end
+        else
+            ^
+C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/tasks_controller.rb:45: syntax error, unexpected keyword_else, expecting keyword_end
+  app/controllers/tasks_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2436.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2513.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (5745.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-09 17:07:06 +0300
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (0.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 766ms (Views: 746.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/pages/control_panel" for ::1 at 2016-06-09 17:07:13 +0300
+Processing by PagesController#control_panel as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Exists (1.0ms)[0m  SELECT  1 AS one FROM "clients" WHERE "clients"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered pages/control_panel.html.slim within layouts/application (32.0ms)
+Completed 200 OK in 755ms (Views: 745.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:07:16 +0300
+
+SyntaxError (C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:45: syntax error, unexpected keyword_else, expecting keyword_end
+        else
+            ^
+C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/tasks_controller.rb:45: syntax error, unexpected keyword_else, expecting keyword_end
+  app/controllers/tasks_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2122.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2012.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4895.8ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:07:24 +0300
+
+SyntaxError (C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:45: syntax error, unexpected keyword_else, expecting keyword_end
+        else
+            ^
+C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/tasks_controller.rb:45: syntax error, unexpected keyword_else, expecting keyword_end
+  app/controllers/tasks_controller.rb:98: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2711.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2018.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (5184.3ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:08:06 +0300
+
+SyntaxError (C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:47: syntax error, unexpected keyword_else, expecting keyword_end
+        else
+            ^
+C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/controllers/tasks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/tasks_controller.rb:47: syntax error, unexpected keyword_else, expecting keyword_end
+  app/controllers/tasks_controller.rb:100: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2686.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2116.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (5393.3ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:08:35 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients"."id" FROM "clients" WHERE (user_id = 1)
+  [1m[36mTask Load (1.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE (client_id IN (8,9))[0m
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" IN (8)
+  [1m[36mTaskStatus Load (1.0ms)[0m  [1mSELECT "task_statuses".* FROM "task_statuses" WHERE "task_statuses"."id" IN (1)[0m
+  Rendered tasks/index.html.slim within layouts/application (74.0ms)
+Completed 200 OK in 867ms (Views: 760.2ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:08:37 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:08:38 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:08:39 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:08:41 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_form.html.slim (46.8ms)
+  Rendered tasks/new.html.slim within layouts/application (111.2ms)
+Completed 200 OK in 863ms (Views: 860.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tasks" for ::1 at 2016-06-09 17:08:44 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0KlNryX9HRxSbpc6OKtRqKUCsPR+GfR0YyaQofanDHAgG+0W9tBOpuKLIkCp/ieh/TpeBABNnZPfUXmTd40UgQ==", "task"=>{"title"=>"", "description"=>"", "client_id"=>"8"}, "attachments"=>{"name"=>["Attachment"]}, "add_attachment"=>"Add ingredient"}
+  [1m[35mSetting Load (4.0ms)[0m  SELECT  "settings".* FROM "settings" WHERE "settings"."name" = ? LIMIT 1  [["name", "default_task_type_id"]]
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 6.0ms)
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/controllers/tasks_controller.rb:35:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1648.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1267.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2998.2ms)
+
+
+Started POST "/tasks" for ::1 at 2016-06-09 17:25:43 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0KlNryX9HRxSbpc6OKtRqKUCsPR+GfR0YyaQofanDHAgG+0W9tBOpuKLIkCp/ieh/TpeBABNnZPfUXmTd40UgQ==", "task"=>{"title"=>"", "description"=>"", "client_id"=>"8"}, "attachments"=>{"name"=>["Attachment"]}, "add_attachment"=>"Add ingredient"}
+  [1m[36mSetting Load (0.0ms)[0m  [1mSELECT  "settings".* FROM "settings" WHERE "settings"."name" = ? LIMIT 1[0m  [["name", "default_task_type_id"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "tasks" ("title", "description", "client_id", "task_status_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["title", ""], ["description", ""], ["client_id", 8], ["task_status_id", 1], ["created_at", "2016-06-09 14:25:44.157660"], ["updated_at", "2016-06-09 14:25:44.157660"]]
+  [1m[35m (6.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/tasks/21
+Completed 302 Found in 100ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/tasks/21" for ::1 at 2016-06-09 17:25:44 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mTask Load (1.0ms)[0m  [1mSELECT  "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT 1[0m  [["id", 21]]
+  Rendered tasks/show.html.slim within layouts/application (18.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 795ms (Views: 784.5ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:25:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/tasks.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:25:46 +0300
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:25:48 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients"."id" FROM "clients" WHERE (user_id = 1)
+  [1m[36mTask Load (0.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE (client_id IN (8,9))[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" IN (8)
+  [1m[36mTaskStatus Load (0.0ms)[0m  [1mSELECT "task_statuses".* FROM "task_statuses" WHERE "task_statuses"."id" IN (1)[0m
+  Rendered tasks/index.html.slim within layouts/application (64.4ms)
+Completed 200 OK in 819ms (Views: 778.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:25:50 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered tasks/_form.html.slim (15.6ms)
+  Rendered tasks/new.html.slim within layouts/application (78.0ms)
+Completed 500 Internal Server Error in 350ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Unknown line indicator
+  C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/views/tasks/_form.html.slim, Line 41, Column 2
+    $("#addNewChoice").on "click", ->
+    ^
+):
+    38: div style="display: none;" id="new_choice_form"
+    39:   = render partial: "task_attachment", locals: {poll: false}
+    40: 
+    41:   $("#addNewChoice").on "click", ->
+    42:     $("#poll_choices").append($("#new_choice_form").html())
+  app/views/tasks/_form.html.slim:41
+  app/views/tasks/new.html.slim:7:in `_app_views_tasks_new_html_slim__8909883_76358004'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (2293.8ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2239.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4877.8ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:26:00 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered tasks/_form.html.slim (15.6ms)
+  Rendered tasks/new.html.slim within layouts/application (93.6ms)
+Completed 500 Internal Server Error in 390ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Unknown line indicator
+  C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/views/tasks/_form.html.slim, Line 41, Column 2
+    $("#addNewChoice").on "click", ->
+    ^
+):
+    38: div style="display: none;" id="new_choice_form"
+    39:   = render partial: "task_attachment", locals: {poll: false}
+    40: 
+    41:   $("#addNewChoice").on "click", ->
+    42:     $("#poll_choices").append($("#new_choice_form").html())
+  app/views/tasks/_form.html.slim:41
+  app/views/tasks/new.html.slim:7:in `_app_views_tasks_new_html_slim__8909883_76358004'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (2207.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2263.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (4800.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:26:10 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_task_attachment.html.slim (15.6ms)
+  Rendered tasks/_form.html.slim (109.2ms)
+  Rendered tasks/new.html.slim within layouts/application (156.0ms)
+Completed 200 OK in 837ms (Views: 841.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:26:11 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (1.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_task_attachment.html.slim (0.0ms)
+  Rendered tasks/_form.html.slim (70.4ms)
+  Rendered tasks/new.html.slim within layouts/application (131.0ms)
+Completed 200 OK in 815ms (Views: 792.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:26:12 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_task_attachment.html.slim (0.0ms)
+  Rendered tasks/_form.html.slim (65.4ms)
+  Rendered tasks/new.html.slim within layouts/application (127.8ms)
+Completed 200 OK in 890ms (Views: 891.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:26:13 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_task_attachment.html.slim (0.0ms)
+  Rendered tasks/_form.html.slim (93.6ms)
+  Rendered tasks/new.html.slim within layouts/application (171.6ms)
+Completed 200 OK in 952ms (Views: 945.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:26:14 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_task_attachment.html.slim (0.0ms)
+  Rendered tasks/_form.html.slim (93.6ms)
+  Rendered tasks/new.html.slim within layouts/application (171.6ms)
+Completed 200 OK in 889ms (Views: 886.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:26:29 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered tasks/_form.html.slim (14.0ms)
+  Rendered tasks/new.html.slim within layouts/application (58.0ms)
+Completed 500 Internal Server Error in 327ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (Unknown line indicator
+  C:/Ruby/rails/tsk/executor_of_tasks/tsk-executor_of_tasks/app/views/tasks/_form.html.slim, Line 41, Column 0
+    $("#addNewChoice").on "click", ->
+    ^
+):
+    38: div style="display: none;" id="new_choice_form"
+    39:   = render partial: "task_attachment", locals: {poll: false}
+    40: 
+    41: $("#addNewChoice").on "click", ->
+    42:   $("#poll_choices").append($("#new_choice_form").html())
+  app/views/tasks/_form.html.slim:41
+  app/views/tasks/new.html.slim:7:in `_app_views_tasks_new_html_slim__8909883_79451904'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1977.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2271.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (5192.3ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:27:10 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (12.0ms)
+  Rendered tasks/_form.html.slim (107.0ms)
+  Rendered tasks/new.html.slim within layouts/application (157.0ms)
+Completed 200 OK in 2481ms (Views: 2472.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:27:13 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/assets/tasks.self-1ed543babd7e998ddc3a29e52ce0bd0cdfb1b84ef6cf87b5890c828f37954a73.js?body=1" for ::1 at 2016-06-09 17:27:14 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:28:03 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (0.0ms)
+  Rendered tasks/_form.html.slim (95.0ms)
+  Rendered tasks/new.html.slim within layouts/application (147.0ms)
+Completed 200 OK in 862ms (Views: 852.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:28:05 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/tasks.self-1ed543babd7e998ddc3a29e52ce0bd0cdfb1b84ef6cf87b5890c828f37954a73.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:28:06 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:36:26 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (1.0ms)
+  Rendered tasks/_form.html.slim (76.0ms)
+  Rendered tasks/new.html.slim within layouts/application (115.0ms)
+Completed 200 OK in 1463ms (Views: 1454.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:36:28 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/tasks.self-1ed543babd7e998ddc3a29e52ce0bd0cdfb1b84ef6cf87b5890c828f37954a73.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:36:29 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:37:52 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (1.0ms)
+  Rendered tasks/_form.html.slim (98.0ms)
+  Rendered tasks/new.html.slim within layouts/application (152.0ms)
+Completed 200 OK in 1590ms (Views: 1581.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:37:54 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:37:55 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:37:56 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:37:56 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:37:56 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:37:56 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:37:56 +0300
+
+
+Started GET "/assets/tasks.self-9d3b9df22ec56da4e70150c0997742b25c853afc36dd6a7903c86500d25660de.js?body=1" for ::1 at 2016-06-09 17:37:56 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:41:41 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (1.0ms)
+  Rendered tasks/_form.html.slim (94.0ms)
+  Rendered tasks/new.html.slim within layouts/application (144.0ms)
+Completed 200 OK in 1764ms (Views: 1755.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:41:43 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:41:44 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/assets/tasks.self-d4c505af497d7712f73a9b1ae04031145baa6d273fa89fc6ebfcefde0dd86cd0.js?body=1" for ::1 at 2016-06-09 17:41:45 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:45:51 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (14.0ms)
+  Rendered tasks/_form.html.slim (107.0ms)
+  Rendered tasks/new.html.slim within layouts/application (151.0ms)
+Completed 200 OK in 827ms (Views: 815.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:45:52 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:45:52 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:45:52 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:45:52 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:45:52 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:45:52 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:45:53 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:45:54 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:45:54 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:45:54 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:45:54 +0300
+
+
+Started GET "/assets/tasks.self-d4c505af497d7712f73a9b1ae04031145baa6d273fa89fc6ebfcefde0dd86cd0.js?body=1" for ::1 at 2016-06-09 17:45:54 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:45:54 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:48:20 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (10.0ms)
+  Rendered tasks/_form.html.slim (67.0ms)
+  Rendered tasks/new.html.slim within layouts/application (107.0ms)
+Completed 200 OK in 822ms (Views: 810.6ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:48:21 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:48:21 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:48:21 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:48:21 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:48:22 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:48:23 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:48:23 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:48:23 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:48:23 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:48:23 +0300
+
+
+Started GET "/assets/tasks.self-d4c505af497d7712f73a9b1ae04031145baa6d273fa89fc6ebfcefde0dd86cd0.js?body=1" for ::1 at 2016-06-09 17:48:23 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:48:23 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:50:43 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (10.0ms)
+  Rendered tasks/_form.html.slim (67.0ms)
+  Rendered tasks/new.html.slim within layouts/application (105.0ms)
+Completed 200 OK in 1429ms (Views: 1409.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:50:45 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:50:46 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:50:47 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:50:47 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:50:47 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:50:47 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:50:47 +0300
+
+
+Started GET "/assets/tasks.self-5e8d6c5d6733582502698f4d0cb542f53920dc120258b749297e58605044839c.js?body=1" for ::1 at 2016-06-09 17:50:47 +0300
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:51:31 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (1.0ms)[0m  SELECT "clients".* FROM "clients" WHERE (user_id = 1)
+  Rendered tasks/_task_attachment.html.slim (0.0ms)
+  Rendered tasks/_form.html.slim (59.0ms)
+  Rendered tasks/new.html.slim within layouts/application (97.0ms)
+Completed 200 OK in 1655ms (Views: 1640.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-603f330c29af013305325569c8c75d03d688963abd8cde4fffec17b5ce417bfb.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-2fe4f8a61d73606fbcb036b41f380591906a4da65a9eb5ec0a210fe6980b2ca7.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/clients.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/task_statuses.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/settings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/tasks.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-09ff30b1e8a93d1f7728b9855f55d9c9d8d5734c8861e0d8139994e50944572a.js?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-a29e91e8cd3ddaba9bbc466901d53ec2127e9256b9b941905d525a3a716bd1a5.js?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-72f95ffa1071297725a9ac91989693d56d1abf23f441a47455073b0da2857a5b.js?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-9314126777c6be5443e37ea7f7967d7914d72b3e60449ba50edc967446373059.js?body=1" for ::1 at 2016-06-09 17:51:33 +0300
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-a155b9d4b2f978905f0326c0f6635e1134fe91c6bfbfcbad079fa24a9fef2b0e.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-122235057fbd4c6c7da377d59dc58f47b44cb1088a2e38e6ee6ce9d8ac29a26a.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-11cf547be953f25f511cec668f6690473fd97b2f65502e4032f4030999a3f0c3.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-77d8e3a2499c1104ef146396a68b82469ee2bdb365199b874694698d10405e9a.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap/button.self-a6cb16785434acb365ae426aef9f1fce05ed553cae7a965e4471c3da71509175.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-7dc8bfbc2fbfabd2bad62c58ff8ffeaf8f20fb87c7ca6cd35f06d4dc19632587.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-57eb8422043cf0a85b7a9dc6843916eb0a3e35b419c7798a5eb254b918997631.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-d2b642d8fbfc1d7041e2edefd66683ada567a980789dcd6f94fddda0b33408b5.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/turbolinks.self-6fb86ff58d930b560704818c7d9e5f60d83d65b91c6778c7f7e4210d5ba82127.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/clients.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/settings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/task_statuses.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-09 17:51:34 +0300
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-06-09 17:51:35 +0300
+
+
+Started GET "/assets/tasks.self-55ef601a4e800837fe46242e7c7b5e18f6d39946e9cd18da310d470c32714e40.js?body=1" for ::1 at 2016-06-09 17:51:35 +0300
+
+
+Started GET "/" for ::1 at 2016-06-09 17:52:46 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (46.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 2193ms (Views: 2123.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pages/control_panel" for ::1 at 2016-06-09 17:52:53 +0300
+Processing by PagesController#control_panel as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Exists (0.0ms)[0m  SELECT  1 AS one FROM "clients" WHERE "clients"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered pages/control_panel.html.slim within layouts/application (145.0ms)
+Completed 200 OK in 828ms (Views: 820.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tasks" for ::1 at 2016-06-09 17:52:55 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients"."id" FROM "clients" WHERE (user_id = 1)
+  [1m[36mTask Load (1.0ms)[0m  [1mSELECT "tasks".* FROM "tasks" WHERE (client_id IN (8,9))[0m
+  [1m[35mClient Load (0.0ms)[0m  SELECT "clients".* FROM "clients" WHERE "clients"."id" IN (8)
+  [1m[36mTaskStatus Load (0.0ms)[0m  [1mSELECT "task_statuses".* FROM "task_statuses" WHERE "task_statuses"."id" IN (1)[0m
+  Rendered tasks/index.html.slim within layouts/application (179.4ms)
+Completed 200 OK in 1006ms (Views: 956.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tasks/new" for ::1 at 2016-06-09 17:52:58 +0300
+Processing by TasksController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mClient Load (0.0ms)[0m  [1mSELECT "clients".* FROM "clients" WHERE (user_id = 1)[0m
+  Rendered tasks/_task_attachment.html.slim (15.6ms)
+  Rendered tasks/_form.html.slim (229.8ms)
+  Rendered tasks/new.html.slim within layouts/application (307.8ms)
+Completed 200 OK in 955ms (Views: 956.7ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-06-09 17:53:14 +0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mkzoSeY/bLC0vTwR5zl+evVVT6TSwi6m6n0uvjrv0tNq/kjwNRI/CgRYiWt2bAhzrW2hVKyWR0FWCseMu8XKIg=="}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 46ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-06-09 17:53:14 +0300
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (0.0ms)
+Completed 200 OK in 1011ms (Views: 1008.9ms | ActiveRecord: 0.0ms)

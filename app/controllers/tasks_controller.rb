@@ -34,9 +34,9 @@ class TasksController < ApplicationController
 
     respond_to do |format|
       if @task.save
-        params[:attachments]['source'].each do |a|
-          @task_attachment = @task.attachments.create!(:source => a)
-        end
+        #params[:attachments]['source'].each do |a|
+        #  @task_attachment = @task.attachments.create!(:source => a)
+        #end
         format.html { redirect_to @task, notice: 'Задача успешно создана.' }
         format.json { render :show, status: :created, location: @task }
       else

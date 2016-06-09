@@ -1,0 +1,7 @@
+I"–(function() {
+  $("#addNewChoice").on("click", function() {
+    return $("#poll_choices").append($("#new_choice_form").html());
+  });
+
+}).call(this);
+:ET

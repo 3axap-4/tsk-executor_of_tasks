@@ -1,4 +1,4 @@
-= form_for @task, multipart: true do |f|
+= form_for @task, remote: true, format: :json, multipart: true do |f|
   - if @task.errors.any?
     #error_explanation
       h2 = "#{pluralize(@task.errors.count, "error")} prohibited this task from being saved:"
@@ -20,15 +20,18 @@
 
   br
   = f.fields_for @task.attachments do |p| 
-    .field.form-inline
-      .field
-        = p.label "Наименование"
-        = p.label "Вложения"      
-      .field  
-        = p.text_field :name, name: "attachments[name][]",
-        class: "form-control form-inline"
-        = p.file_field :source, multiple: true, 
-        name: "attachments[source][]", class: "form-control"
+    .field#task_attachments
+      = p.label "Наименование"     
+      = p.text_field :name, name: "attachments[name][]",
+      class: "form-control form-inline"
+      = p.label "Вложения" 
+      = p.file_field :source, multiple: true, 
+      name: "attachments[source][]", class: "form-control"
 
+  a#addNewChoice href="javascript:;" 
+    |Add New Choice
   br
   .actions = f.submit "Сохранить", class: "btn btn-success"
+
+div#new_choice_form style="display: none;" 
+  = render partial: "task_attachment"

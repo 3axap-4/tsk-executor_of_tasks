@@ -1,0 +1,7 @@
+I"™(function() {
+  $("#addNewChoice").on("click", function() {
+    return $("#task_attachment").append($("#new_choice_form").html());
+  });
+
+}).call(this);
+:ET
