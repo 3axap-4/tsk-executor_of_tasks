@@ -49,3 +49,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #Slim Template
 gem 'slim-rails'
+
+#File Upload
+gem 'carrierwave'

@@ -1,6 +1,8 @@
 class TasksController < ApplicationController
   before_action :set_task, only: [:show, :edit, :update, :destroy]
   before_action :define_default_task_status, only: [:create]
+  before_action :fill_clients, only: [:new, :edit]
+
   # GET /tasks
   # GET /tasks.json
   def index
@@ -18,7 +20,6 @@ class TasksController < ApplicationController
   # GET /tasks/new
   def new
     @task = Task.new
-    @clients = Client.where("user_id = ?", current_user.id)
   end
 
   # GET /tasks/1/edit
@@ -33,6 +34,9 @@ class TasksController < ApplicationController
 
     respond_to do |format|
       if @task.save
+        params[:attachments]['source'].each do |a|
+          @task_attachment = @task.attachments.create!(:source => a)
+        end
         format.html { redirect_to @task, notice: 'Задача успешно создана.' }
         format.json { render :show, status: :created, location: @task }
       else
@@ -74,12 +78,17 @@ class TasksController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def task_params
-      params.require(:task).permit(:title, :description, :client_id)
+      params.require(:task).permit(:title, :description, :client_id, 
+        attachments_attributes: [:id, :post_id, :source])
     end
 
     def define_default_task_status
       status = Setting.find_by_name('default_task_type_id');
       @default_task_status_id = status.nil? ? nil : status.value
+    end
+
+    def fill_clients
+      @clients = Client.where("user_id = ?", current_user.id)
     end
 
 end

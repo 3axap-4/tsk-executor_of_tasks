@@ -1,4 +1,4 @@
-= form_for @task do |f|
+= form_for @task, multipart: true do |f|
   - if @task.errors.any?
     #error_explanation
       h2 = "#{pluralize(@task.errors.count, "error")} prohibited this task from being saved:"
@@ -17,5 +17,18 @@
   .field
     = f.label "Профиль"
     = f.collection_select :client_id, @clients, :id, :name, {},class: "form-control"
+
+  br
+  = f.fields_for @task.attachments do |p| 
+    .field.form-inline
+      .field
+        = p.label "Наименование"
+        = p.label "Вложения"      
+      .field  
+        = p.text_field :name, name: "attachments[name][]",
+        class: "form-control form-inline"
+        = p.file_field :source, multiple: true, 
+        name: "attachments[source][]", class: "form-control"
+
   br
   .actions = f.submit "Сохранить", class: "btn btn-success"
