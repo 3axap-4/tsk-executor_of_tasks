@@ -6,3 +6,5 @@ $ ->
   		$('#task_attachments').append($('#new_choice_form').html())
 
 @removeChoice = (element) -> element.parent().parent().remove()
+
+$('#remove_attachment').on "ckick", -> alert "sadsa"

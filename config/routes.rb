@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :tasks do   
     member do
       get 'download_attachment'
+      get 'remove_attachment'
     end
   end
   resources :task_statuses

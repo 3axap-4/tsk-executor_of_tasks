@@ -20,13 +20,30 @@
    
   br
   -if !@task.attachments.empty?
-    /!= f.fields_for @task.attachments do |p| 
-    - @task.attachments.each do |a|
-      =link_to a.name, download_attachment_task_path(a.id)
-
-
-  #task_attachments.field
-    = render partial: "task_attachment"
+    .panel.panel-default
+      .panel-heading
+          |Вложения загруженные
+      .panel-body
+        - @task.attachments.each do |a|
+          .panel
+            =link_to a.name, download_attachment_task_path(a.id)
+            =link_to "x", remove_attachment_task_path(a.id), class: "btn btn-xs btn-danger pull-right"
+            
+  = f.fields_for @task.attachments do |p|
+    div#new_choice_form style="display: none;" 
+      = render partial: "task_attachment", locals: {g:p}
+    #task_attachments.field
+      .panel.panel-info
+        .panel-heading
+          |Вложение
+        .panel-body
+          = label_tag "Наименование"     
+          = p.text_field :name, class: "form-control form-inline", name: "attachments_name[]"
+          br
+          = label_tag "Файл" 
+          = p.file_field :source, multiple: true, class: "form-control", name: "attachments_source[]"
+          
+          
 
   a#addNewChoice.btn.btn-info.pull-right href="javascript:;" 
     |Новое вложение
@@ -35,5 +52,3 @@
   .actions = f.submit "Сохранить", class: "btn btn-success"
   br
 
-div#new_choice_form style="display: none;" 
-  = render partial: "task_attachment"

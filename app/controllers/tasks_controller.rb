@@ -24,7 +24,6 @@ class TasksController < ApplicationController
   def new
     @task = Task.new
   end
-
   # GET /tasks/1/edit
   def edit
   end
@@ -39,7 +38,7 @@ class TasksController < ApplicationController
       if @task.save
 
         params[:attachments_source].count.times do |a|
-          @task.attachments.create!(name: params[:attachments_name][a], source: params[:attachments_source][a])
+          @task_attachment = @task.attachments.create!(name: params[:attachments_name][a], source: params[:attachments_source][a])
         end
         
 
@@ -81,10 +80,14 @@ class TasksController < ApplicationController
 
   def download_attachment
     att = Attachment.find(params[:id])
-    send_file att.source if !att.nil?
-    
+    send_file att.source.path if !att.nil?   
   end
 
+  def remove_attachment
+    att = Attachment.find(params[:id])
+    att.destroy! if !att.nil?
+       
+  end
 
   private
     # Use callbacks to share common setup or constraints between actions.

@@ -5,8 +5,8 @@
       a.btn.btn-xs.btn-danger.pull-right href="#" onclick="removeChoice($(this))"
       	|&times;
       = label_tag "Наименование"     
-      = text_field_tag "attachments_name[]", nil, class: "form-control form-inline"
+      = g.text_field :name, class: "form-control", 
+      	name: "attachments_name[]"
       br
       = label_tag "Файл" 
-      = file_field_tag "attachments_source[]", multiple: true, 
-      	class: "form-control"
+      = g.file_field :source, multiple: true, class: "form-control", name: "attachments_source[]"
