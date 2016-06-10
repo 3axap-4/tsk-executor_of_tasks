@@ -17,21 +17,23 @@
   .field
     = f.label "Профиль"
     = f.collection_select :client_id, @clients, :id, :name, {},class: "form-control"
-
+   
   br
-  = f.fields_for @task.attachments do |p| 
-    .field#task_attachments
-      = p.label "Наименование"     
-      = p.text_field :name, name: "attachments[name][]",
-      class: "form-control form-inline"
-      = p.label "Вложения" 
-      = p.file_field :source, multiple: true, 
-      name: "attachments[source][]", class: "form-control"
+  -if !@task.attachments.empty?
+    /!= f.fields_for @task.attachments do |p| 
+    - @task.attachments.each do |a|
+      =link_to a.name, download_attachment_task_path(a.id)
 
-  a#addNewChoice href="javascript:;" 
-    |Add New Choice
+
+  #task_attachments.field
+    = render partial: "task_attachment"
+
+  a#addNewChoice.btn.btn-info.pull-right href="javascript:;" 
+    |Новое вложение
+  br
   br
   .actions = f.submit "Сохранить", class: "btn btn-success"
+  br
 
 div#new_choice_form style="display: none;" 
   = render partial: "task_attachment"

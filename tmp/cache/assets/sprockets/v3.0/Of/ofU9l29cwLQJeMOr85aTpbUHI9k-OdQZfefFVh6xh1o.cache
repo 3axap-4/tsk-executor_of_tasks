@@ -1,0 +1,11 @@
+I"ª(function() {
+  $(function() {
+    return alert("asdasdasd");
+  });
+
+  this.removeChoice = function(element) {
+    return element.parent().remove();
+  };
+
+}).call(this);
+:ET

@@ -1,4 +1,7 @@
 class TasksController < ApplicationController
+  #invalidauthenticitytoken solve
+  protect_from_forgery with: :null_session
+
   before_action :set_task, only: [:show, :edit, :update, :destroy]
   before_action :define_default_task_status, only: [:create]
   before_action :fill_clients, only: [:new, :edit]
@@ -29,11 +32,17 @@ class TasksController < ApplicationController
   # POST /tasks
   # POST /tasks.json
   def create
-    @task = Task.new(task_params)
+    @task = Task.new(task_params)      
     @task.task_status_id = @default_task_status_id
 
     respond_to do |format|
       if @task.save
+
+        params[:attachments_source].count.times do |a|
+          @task.attachments.create!(name: params[:attachments_name][a], source: params[:attachments_source][a])
+        end
+        
+
         #params[:attachments]['source'].each do |a|
         #  @task_attachment = @task.attachments.create!(:source => a)
         #end
@@ -69,6 +78,13 @@ class TasksController < ApplicationController
       format.json { head :no_content }
     end
   end
+
+  def download_attachment
+    att = Attachment.find(params[:id])
+    send_file att.source if !att.nil?
+    
+  end
+
 
   private
     # Use callbacks to share common setup or constraints between actions.

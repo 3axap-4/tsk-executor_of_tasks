@@ -1,6 +1,12 @@
-= label_tag "Choice" 
-br
-= text_field_tag "choices[]"
-	/! a href="#" onclick="removeChoice($(this))"
- 		|&times; 
-br
+.panel.panel-info
+    .panel-heading
+      |Вложение
+    .panel-body
+      a.btn.btn-xs.btn-danger.pull-right href="#" onclick="removeChoice($(this))"
+      	|&times;
+      = label_tag "Наименование"     
+      = text_field_tag "attachments_name[]", nil, class: "form-control form-inline"
+      br
+      = label_tag "Файл" 
+      = file_field_tag "attachments_source[]", multiple: true, 
+      	class: "form-control"

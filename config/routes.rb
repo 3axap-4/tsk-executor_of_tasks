@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   resources :settings
-  resources :tasks
+  resources :tasks do   
+    member do
+      get 'download_attachment'
+    end
+  end
   resources :task_statuses
   resources :clients
   devise_for :users
