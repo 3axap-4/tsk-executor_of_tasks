@@ -14,6 +14,7 @@
         th Профиль
         th Название
         th Описание
+        th 
         th
         th
         th
@@ -27,6 +28,7 @@
           td = task.client.name
           td = task.title
           td = task.description
+          td.text-center = link_to 'Добавить в корзину', carts_add_item_path(task_id: task.id), class: "btn btn-default"
           td.text-center = link_to 'Просмотр', task, class: "btn btn-default"
           td.text-center = link_to 'Изменение', edit_task_path(task), class: "              btn btn-default"
           td.text-center = link_to 'Удаление', task, 

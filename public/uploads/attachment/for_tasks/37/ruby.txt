@@ -1,0 +1,39 @@
+Controller
+
+rails generate controller Store index
+Store - название контроллера 
+Index -Фсешщт контроллера
+
+
+VIEW
+stylesheet_link_tag - предназначеннен для генерирования тега <link>,  ссылающется на таблицу стилей нашего приложения
+javascript_include_tag - генерируется тег <link>, ссылающийся на сценарии нашего приложения
+csrf_meta_tags -  устанавливаются все закулисные данные, необходимые для предотвращения атак путем подделки кросс-сайтовых запросов
+
+
+sanitize(product.discription) - позволяет безопасно добавлять стилевое оформление HTML
+image_tag(product.image) -  генерирует HTML-тег <img>, используя свой аргумент в качестве источника изображения .
+number_to_currency(product.price) - преобразование числа в валюту
+
+
+Тестирование 
+rake db:test:prepare инициализированние таблиц в тестовой базе данных, данными которые загружаются из предоставленных нами стендовых файлов .
+rake test:controllers 
+
+products(:ruby) вернет модель product содержащую данные, определенные в стенде
+
+НАСТРОЙКИ 
+
+КЭШИРОВАНИЕ 
+config/environments/development.rb
+	config.action_controller.perform_caching = true
+
+в модели 
+	def
+	 self.latest  Product.order(:updated_at).last 
+	end
+Осуществляем вывод только измененных последних данных
+	 
+
+rails generate scaffold [имя таблицы]
+rake db:migrate  - миграция

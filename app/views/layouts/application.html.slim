@@ -17,10 +17,22 @@ html
 
   				form.navbar-form.navbar-right role="search"
 	  				-if user_signed_in?
-	  					|Здравствуйте!
+	  					span#greetings
+	  						|Здравствуйте! #{current_user.email}
+
 	  					.form-group
 							=link_to(content_tag(:span, 'Выйти', class: "span glyphicon.glyphicon-log-out"), 
 							destroy_user_session_path, method: :delete, class: "button btn btn-danger")
+							|&nbsp;&nbsp;&nbsp;
+
+							-if (!current_user.cart.nil? && !current_user.cart.cart_items.empty?)
+								=link_to carts_show_path
+									=content_tag(:button, class: "btn btn-default")
+										|Корзина
+										'
+										=content_tag(:span , current_user.cart.cart_items.count, class: "badge")
+							-else
+								=link_to("Корзина", carts_show_path, class: "btn btn-default")
 								
 	  				-else
 						.form-group

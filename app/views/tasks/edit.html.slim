@@ -2,9 +2,42 @@
   .row.clearfix
     .col-md-6.col-md-offset-3.column
     	.jumbotron
-			h2 Изменение задачи
+			h2 
+				|Изменение задачи
+				= link_to 'Добавить в корзину', carts_add_item_path(task_id: @task.id), class: "btn btn-default pull-right"
+
 
 			== render 'form'
+			= link_to 'Назад к списку задач', tasks_path, class: 'btn btn-default'
+			
+			h4#comments-header Комментарии
+			hr
+			#comments
+				#comments-section
+					-@comments.each do |c|
+						.panel.panel-default
+							.panel-heading
+								=c.user.email 
+								'
+								-if(c.user.is_admin?)
+									|(Администратор)
+								|&nbsp;-&nbsp;
+								=c.created_at.strftime("%F %H:%M")
+							.panel-body
+								=c.body	
+				hr		
+				=form_tag('/comments', remote: true) do
+					= hidden_field_tag "task_id", @task.id
+					= label_tag "Текст:"
+					h6#comment_char_remains
+					
+					=text_area_tag "comment[body]", nil,class: "form-control", placeholder: "Текст комментария"
+					br
+					=submit_tag "Отпарвить", class: "btn btn-default"
 
-			= link_to 'Назад', tasks_path
+				br
+				h5#comments-basement Свернуть
+
+
+			
 

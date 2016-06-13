@@ -1,0 +1,10 @@
+I"¹(function() {
+  $(function() {
+    $('#comments-header').on("click", function() {
+      return $('#comments').fadeToggle();
+    });
+    return $('#body').focus();
+  });
+
+}).call(this);
+:ET

@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+
+  get 'carts/add_item' => 'carts#add_item'
+  delete 'carts/delete_item' => 'carts#delete_item'
+  get 'carts/show'
+
+  delete 'task_attachments/:id' =>'task_attachments#destroy'
+  get 'task_attachments/download_attachment'
+
+  post 'comments' =>'comments#create'
+
   resources :settings
   resources :tasks do   
     member do

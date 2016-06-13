@@ -52,3 +52,6 @@ gem 'slim-rails'
 
 #File Upload
 gem 'carrierwave'
+
+#for java script work correctly
+gem 'jquery-turbolinks'

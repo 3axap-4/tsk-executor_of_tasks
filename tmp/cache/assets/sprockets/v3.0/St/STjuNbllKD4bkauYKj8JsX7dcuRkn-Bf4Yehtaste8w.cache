@@ -1,0 +1,24 @@
+I"p(function() {
+  $(function() {
+    $('#comments-header').on("click", function() {
+      return $('#comments').fadeToggle();
+    });
+    return $('#comment_body').focus();
+  });
+
+  $(function() {
+    return $('#comment[body]').keypress(function(e) {
+      var remain, set, tlength, tval;
+      tval = $('#comment[body]').val();
+      tlength = tval.length;
+      set = 10;
+      remain = parseInt(set - tlength);
+      $('#comment_char_remains').text(remain);
+      if (remain <= 0 && e.which !== 0 && e.charCode !== 0) {
+        $('#comment[body]').val(tval.substring(0, tlength - 1));
+      }
+    });
+  });
+
+}).call(this);
+:ET

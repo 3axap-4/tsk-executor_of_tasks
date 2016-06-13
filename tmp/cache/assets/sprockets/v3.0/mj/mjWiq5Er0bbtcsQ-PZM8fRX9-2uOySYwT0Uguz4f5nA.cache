@@ -1,0 +1,23 @@
+I"ì(function() {
+  $(function() {
+    return $('#addNewChoice').on("click", function() {
+      return $('#task_attachments').append($('#new_choice_form').html());
+    });
+  });
+
+  $(function() {
+    return $('#remove_attachment').on("click", function() {
+      return alert("asdsaf");
+    });
+  });
+
+  this.removeChoice = function(element) {
+    return element.parent().parent().remove();
+  };
+
+  $('#remove_attachment').on("ckick", function() {
+    return alert("sadsa");
+  });
+
+}).call(this);
+:ET

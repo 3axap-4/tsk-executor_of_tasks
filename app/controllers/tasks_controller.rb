@@ -26,6 +26,8 @@ class TasksController < ApplicationController
   end
   # GET /tasks/1/edit
   def edit
+    @comments = Comment.where("task_id = #{@task.id}")
+    #Comment.find_by_task_id(@task.id)
   end
 
   # POST /tasks
@@ -36,15 +38,7 @@ class TasksController < ApplicationController
 
     respond_to do |format|
       if @task.save
-
-        params[:attachments_source].count.times do |a|
-          @task_attachment = @task.attachments.create!(name: params[:attachments_name][a], source: params[:attachments_source][a])
-        end
-        
-
-        #params[:attachments]['source'].each do |a|
-        #  @task_attachment = @task.attachments.create!(:source => a)
-        #end
+        save_attachments
         format.html { redirect_to @task, notice: 'Задача успешно создана.' }
         format.json { render :show, status: :created, location: @task }
       else
@@ -59,10 +53,11 @@ class TasksController < ApplicationController
   def update
     respond_to do |format|
       if @task.update(task_params)
+        save_attachments
         format.html { redirect_to @task, notice: 'Задача успешно изменена.' }
-        format.json { render :show, status: :ok, location: @task }
+        format.json { render :show, status: :ok, location: @tasks }
       else
-        format.html { render :edit }
+        format.html { render :edit}
         format.json { render json: @task.errors, status: :unprocessable_entity }
       end
     end
@@ -83,12 +78,6 @@ class TasksController < ApplicationController
     send_file att.source.path if !att.nil?   
   end
 
-  def remove_attachment
-    att = Attachment.find(params[:id])
-    att.destroy! if !att.nil?
-       
-  end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_task
@@ -98,7 +87,8 @@ class TasksController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def task_params
       params.require(:task).permit(:title, :description, :client_id, 
-        attachments_attributes: [:id, :post_id, :source])
+        attachments_attributes: [:id, :task_id, :source],
+        comments_attributes: [:body])
     end
 
     def define_default_task_status
@@ -108,6 +98,14 @@ class TasksController < ApplicationController
 
     def fill_clients
       @clients = Client.where("user_id = ?", current_user.id)
+    end
+
+    def save_attachments 
+      if(params.has_key?(:attachments_source) && params.has_key?(:attachments_name))
+        params[:attachments_source].count.times do |a|
+          @task_attachment = @task.attachments.create!(name: params[:attachments_name][a+1], source: params[:attachments_source][a])
+        end
+      end
     end
 
 end

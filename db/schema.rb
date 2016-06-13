@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160609093450) do
+ActiveRecord::Schema.define(version: 20160612115040) do
 
   create_table "attachments", force: :cascade do |t|
     t.integer  "task_id"
@@ -19,6 +19,19 @@ ActiveRecord::Schema.define(version: 20160609093450) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string   "name"
+  end
+
+  create_table "cart_items", force: :cascade do |t|
+    t.integer  "cart_id"
+    t.integer  "task_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "carts", force: :cascade do |t|
+    t.integer  "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "clients", force: :cascade do |t|
@@ -30,6 +43,14 @@ ActiveRecord::Schema.define(version: 20160609093450) do
     t.integer  "user_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+  end
+
+  create_table "comments", force: :cascade do |t|
+    t.string   "body",       limit: 140, null: false
+    t.integer  "user_id"
+    t.integer  "task_id"
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
   create_table "settings", force: :cascade do |t|

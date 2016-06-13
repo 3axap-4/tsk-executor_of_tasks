@@ -1,4 +1,6 @@
-= form_for @task, remote: true, format: :json, multipart: true do |f|
+#allerts
+
+= form_for @task,  multipart: true do |f|
   - if @task.errors.any?
     #error_explanation
       h2 = "#{pluralize(@task.errors.count, "error")} prohibited this task from being saved:"
@@ -27,21 +29,14 @@
         - @task.attachments.each do |a|
           .panel
             =link_to a.name, download_attachment_task_path(a.id)
-            =link_to "x", remove_attachment_task_path(a.id), class: "btn btn-xs btn-danger pull-right"
+            span#remove_attachment.btn.btn-xs.btn-danger.pull-right onclick="removeAttachment($(this))" data-attachment_id = "#{a.id}"
+              |&times;
             
   = f.fields_for @task.attachments do |p|
     div#new_choice_form style="display: none;" 
       = render partial: "task_attachment", locals: {g:p}
     #task_attachments.field
-      .panel.panel-info
-        .panel-heading
-          |Вложение
-        .panel-body
-          = label_tag "Наименование"     
-          = p.text_field :name, class: "form-control form-inline", name: "attachments_name[]"
-          br
-          = label_tag "Файл" 
-          = p.file_field :source, multiple: true, class: "form-control", name: "attachments_source[]"
+
           
           
 

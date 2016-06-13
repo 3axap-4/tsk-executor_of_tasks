@@ -1,0 +1,22 @@
+I":(function() {
+  $(function() {
+    return $('#addNewChoice').on("click", function() {
+      return $('#task_attachments').append($('#new_choice_form').html());
+    });
+  });
+
+  this.removeChoice = function(element) {
+    return element.parent().parent().remove();
+  };
+
+  this.removeAttachment = function(elemnt) {
+    var current_attachment;
+    if (confirm("Вы уверены, что хоитте удалить вложение?")) {
+      current_attachment = $(element).parent;
+      $(element).fadeOut(200);
+      return alert("yes");
+    }
+  };
+
+}).call(this);
+:ET
