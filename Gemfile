@@ -55,3 +55,10 @@ gem 'carrierwave'
 
 #for java script work correctly
 gem 'jquery-turbolinks'
+
+group :test do
+	#for Windows
+	gem 'rspec-rails', '~> 2.14.1'
+	gem 'factory_girl_rails'
+	gem 'database_cleaner'
+end
