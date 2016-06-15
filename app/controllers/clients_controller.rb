@@ -15,6 +15,10 @@ class ClientsController < ApplicationController
   # GET /clients/1
   # GET /clients/1.json
   def show
+    if(@client.nil? || @client.user_id != current_user.id)
+      render_404 
+    end
+    @client
   end
 
   # GET /clients/new
@@ -73,9 +77,9 @@ class ClientsController < ApplicationController
     def set_client
       @client = Client.find_by_id(params[:id])
 
-      if(@client.nil?)
-        redirect_to action: "new"
-      end
+      #if(@client.nil?)
+      #  redirect_to action: "new"
+      #end
     
     end
 

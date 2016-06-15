@@ -1,9 +1,0 @@
-I"¡(function() {
-  $(function() {
-    return $('#comments-header').on("click", function() {
-      return $('#comments').fadeToggle();
-    });
-  });
-
-}).call(this);
-:ET

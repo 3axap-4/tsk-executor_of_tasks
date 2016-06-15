@@ -12,4 +12,12 @@ FactoryGirl.define do
 	    user { FactoryGirl.create :admin }
 	end
 
+	factory :client_with_costom_user, class: Client do
+		ignore do
+			user nil
+		end
+		name "CustomClient"
+		fio "SomeCustomFio"
+	end
+
 end
