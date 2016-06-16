@@ -1,5 +1,6 @@
 class CartsController < ApplicationController
 
+  before_action :check_sign_in, only: [:show, :add_item, :delete_item]
 	before_action :pickup_cart, only: [:add_item, :show]
   before_action :pickup_item, only: [:delete_item]
 
@@ -11,7 +12,7 @@ class CartsController < ApplicationController
   end
 
   def add_item 
-    if(params.has_key?(:task_id))
+    if(params.has_key?(:task_id) && Task.exists?(params[:task_id]))
       respond_to do |format|
         if(CartItem.exists?(cart_id: @cart.id, task_id: params[:task_id]))
           format.html { redirect_to :back, alert: 'Данная задача уже добавленная в корзину' }
@@ -19,9 +20,13 @@ class CartsController < ApplicationController
           @cart.cart_items << CartItem.create(cart_id: @cart.id, task_id: params[:task_id])
           if(@cart.save)
             format.html { redirect_to :back, notice: 'Задача успешно добавленная в корзину' }
+          else
+            format.html { redirect_to :back, alert: 'Возникла ошибка при добавлении в корзину пожалуйста повторите попытку' }
           end
         end
-      end     
+      end
+    else
+      render_404     
     end
   end
 
@@ -44,7 +49,10 @@ class CartsController < ApplicationController
   end
 
   def pickup_item 
-    @item = CartItem.find(params[:id])
+    @item = CartItem.find_by_id(params[:id])
+    if(@item.nil?)
+      render_404 
+    end
   end
 
 end
