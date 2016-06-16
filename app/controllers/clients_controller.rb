@@ -15,10 +15,7 @@ class ClientsController < ApplicationController
   # GET /clients/1
   # GET /clients/1.json
   def show
-    if(@client.nil? || @client.user_id != current_user.id)
-      render_404 
-    end
-    @client
+    #@client
   end
 
   # GET /clients/new
@@ -64,24 +61,26 @@ class ClientsController < ApplicationController
 
   # DELETE /clients/1
   # DELETE /clients/1.json
-  def destroy
+  def destroy  
     @client.destroy
     respond_to do |format|
       format.html { redirect_to clients_url, notice: 'Профиль успешно удален.' }
       format.json { head :no_content }
     end
   end
-
+    
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_client
       @client = Client.find_by_id(params[:id])
 
-      #if(@client.nil?)
-      #  redirect_to action: "new"
-      #end
-    
+      if(@client.nil? || (@client.user_id != current_user.id && !current_user.is_admin?))
+        render_404 
+      end
+
     end
+
+
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def client_params
