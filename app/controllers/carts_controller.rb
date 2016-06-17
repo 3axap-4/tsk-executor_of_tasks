@@ -1,4 +1,5 @@
 class CartsController < ApplicationController
+  include TasksHelper
 
   before_action :check_sign_in, only: [:show, :add_item, :delete_item]
 	before_action :pickup_cart, only: [:add_item, :show]
@@ -12,7 +13,7 @@ class CartsController < ApplicationController
   end
 
   def add_item 
-    if(params.has_key?(:task_id) && Task.exists?(params[:task_id]))
+    if(params.has_key?(:task_id) && Task.exists?(params[:task_id]) && is_task_belongs_current_user?(params[:task_id]))
       respond_to do |format|
         if(CartItem.exists?(cart_id: @cart.id, task_id: params[:task_id]))
           format.html { redirect_to :back, alert: 'Данная задача уже добавленная в корзину' }
@@ -48,9 +49,10 @@ class CartsController < ApplicationController
     end
   end
 
-  def pickup_item 
-    @item = CartItem.find_by_id(params[:id])
-    if(@item.nil?)
+  def pickup_item   
+    puts params[:id]
+    if(params.has_key?(:id) && (@item = CartItem.find_by_id(params[:id]) || 
+                                !is_task_belongs_current_user?(params[:id])))
       render_404 
     end
   end

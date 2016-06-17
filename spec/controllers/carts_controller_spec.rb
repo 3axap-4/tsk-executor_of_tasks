@@ -47,8 +47,9 @@ describe CartsController do
 
 				@user = session[:user]							
 				@client1 = FactoryGirl.create(:client, user: @user)
+				@client2 = FactoryGirl.create(:client)
 			    @task_client1  = FactoryGirl.create(:task, client: @client1)
-			    #@cart_item = FactoryGirl.create(:cart_item, task: @task_client1)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2)
 			end		
 
 			it "create new cart if cart don't create before" do
@@ -90,6 +91,11 @@ describe CartsController do
 				cart = Cart.where("user_id = ?", @user.id).first
 				CartItem.where("cart_id = ? AND task_id = ?", cart.id, @task_client1.id).count.should == 1			
 			end
+
+			it "render 404 if try add to cart task that not belong to current user" do
+				get :add_item, task_id: @task_client2.id
+				response.status.should == 404
+			end
 		end
 
 		describe "Delete item" do 
@@ -99,15 +105,30 @@ describe CartsController do
 			before(:each) do
 				request.env["HTTP_REFERER"] = "/tasks"
 
-				@user = session[:user]							
+				@user = session[:user]	
+				cart = FactoryGirl.create(:cart, user: @user)						
 				@client1 = FactoryGirl.create(:client, user: @user)
 			    @task_client1  = FactoryGirl.create(:task, client: @client1)
-			    @cart_item = FactoryGirl.create(:cart_item, task: @task_client1)
+			    @cart_item1 = FactoryGirl.create(:cart_item, task: @task_client1, cart: cart)
+
+			    @client2 = FactoryGirl.create(:client)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2)
+			    @cart_item2 = FactoryGirl.create(:cart_item, task: @task_client2)
 			end	
 
 			it "render 404 if try delete not existing item" do
 				delete :delete_item, id: 0
 				response.status.should == 404
+			end
+
+			it "render 404 if try delete item that not belong's current user" do
+				delete :delete_item, id: @cart_item2.id
+				response.status.should == 404
+			end
+
+			it "redirect back when delete success" do
+				delete :delete_item, id: @cart_item1.id
+				response.should redirect_to "/tasks"
 			end
 
 		end
