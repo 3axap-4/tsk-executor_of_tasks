@@ -8,7 +8,8 @@ module TasksHelper
 			   !task.client.nil? &&
 			   !task.client.user.nil? &&
 		       !current_user.nil? && 
-				task.client.user.id == current_user.id
+				(task.client.user.id == current_user.id ||
+					current_user.is_admin?)
 	end
 
 end

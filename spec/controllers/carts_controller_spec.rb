@@ -35,7 +35,6 @@ describe CartsController do
 				cart1 = assigns[:cart]
 				Cart.where("user_id = ?",  @user.id).count.should == 1
 			end
-
 		end
 
 		describe "Add item" do
@@ -130,11 +129,69 @@ describe CartsController do
 				delete :delete_item, id: @cart_item1.id
 				response.should redirect_to "/tasks"
 			end
-
 		end
 	end
 
 	describe "For admin" do
+
+		describe "Create" do
+			login_admin
+
+			before(:each) do
+				request.env["HTTP_REFERER"] = "/tasks"
+
+				@user = session[:user]	
+				cart = FactoryGirl.create(:cart, user: @user)						
+				@client1 = FactoryGirl.create(:client, user: @user)
+			    @task_client1  = FactoryGirl.create(:task, client: @client1)
+			    @cart_item1 = FactoryGirl.create(:cart_item, task: @task_client1, cart: cart)
+
+			    @client2 = FactoryGirl.create(:client)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2)
+			    @cart_item2 = FactoryGirl.create(:cart_item, task: @task_client2)
+			end	
+
+			it "redirect back if try add to cart task that not belong to current user" do
+				get :add_item, task_id: @task_client2.id
+				response.should redirect_to "/tasks"
+			end
+			
+		end
+
+		describe "Delete item" do 
+
+			login_admin
+
+			before(:each) do
+				request.env["HTTP_REFERER"] = "/tasks"
+
+				@user = session[:user]	
+				cart = FactoryGirl.create(:cart, user: @user)						
+				@client1 = FactoryGirl.create(:client, user: @user)
+			    @task_client1  = FactoryGirl.create(:task, client: @client1)
+			    @cart_item1 = FactoryGirl.create(:cart_item, task: @task_client1, cart: cart)
+
+			    @client2 = FactoryGirl.create(:client)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2)
+			    @cart_item2 = FactoryGirl.create(:cart_item, task: @task_client2)
+			end	
+
+			it "render 404 if try delete not existing item" do
+				delete :delete_item, id: 0
+				response.status.should == 404
+			end
+
+			it "redirect back when delete item that not belong's current user" do
+				delete :delete_item, id: @cart_item2.id
+				response.should redirect_to "/tasks"
+			end
+
+			it "redirect back when delete success" do
+				delete :delete_item, id: @cart_item1.id
+				response.should redirect_to "/tasks"
+			end
+		end
+
 	end
 
 	describe "For new user" do

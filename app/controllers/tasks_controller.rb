@@ -2,6 +2,7 @@ class TasksController < ApplicationController
   #invalidauthenticitytoken solve
   protect_from_forgery with: :null_session
 
+  before_action :check_sign_in, only: [:index, :show, :new, :edit, :create, :update, :destroy, :download_attachment]
   before_action :set_task, only: [:show, :edit, :update, :destroy]
   before_action :define_default_task_status, only: [:create]
   before_action :fill_clients, only: [:new, :edit]

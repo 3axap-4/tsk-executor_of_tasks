@@ -1,5 +1,6 @@
 class CartsController < ApplicationController
   include TasksHelper
+  include CartItems
 
   before_action :check_sign_in, only: [:show, :add_item, :delete_item]
 	before_action :pickup_cart, only: [:add_item, :show]
@@ -50,10 +51,11 @@ class CartsController < ApplicationController
   end
 
   def pickup_item   
-    puts params[:id]
-    if(params.has_key?(:id) && (@item = CartItem.find_by_id(params[:id]) || 
-                                !is_task_belongs_current_user?(params[:id])))
-      render_404 
+    if(params.has_key?(:id))
+      @item = CartItem.find_by_id(params[:id])
+      if(@item.nil? || !is_cart_item_belongs_current_user?(params[:id]))                               
+        render_404 
+      end
     end
   end
 
