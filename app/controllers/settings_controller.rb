@@ -1,6 +1,6 @@
 class SettingsController < ApplicationController
   
-  before_action :check_sign_in, only: [:index, :show, :new, :create, :edit, :update, :destroy]
+  before_action :check_sign_in_admin, only: [:index, :show, :new, :create, :edit, :update, :destroy]
   before_action :set_setting, only: [:show, :edit, :update, :destroy]
 
   # GET /settings

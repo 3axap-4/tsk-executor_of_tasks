@@ -12,24 +12,25 @@
 			li.list-group-item
 			  	=link_to "Параметры входа", 
 			  	edit_user_registration_path(current_user)
-
-			-if (!current_user.nil? && !current_user.client.nil?)
-				li.list-group-item
-					=link_to "Профили",  
-					clients_path
-
+			  	
 			li.list-group-item
-			  	=link_to "Клиенты", 
-			  	clients_path
+				=link_to "Профили",  
+				clients_path
 
-		  	li.list-group-item
-			  	=link_to "Задачи", 
-			  	tasks_path
+			-if (!current_user.nil? && !current_user.client.nil? && !current_user.client.empty?)
+			  	li.list-group-item
+				  	=link_to "Задачи", 
+				  	tasks_path
 
-		  	li.list-group-item
-			  	=link_to "Статусы задач", 
-			  	task_statuses_path
+		  	-if (!current_user.nil? && current_user.is_admin?)
+				li.list-group-item
+				  	=link_to "Пользователи", 
+				  	users_index_path
 
-		  	li.list-group-item
-			  	=link_to "Настройки системы", 
-			  	settings_path
+			  	li.list-group-item
+				  	=link_to "Статусы задач", 
+				  	task_statuses_path
+
+			  	li.list-group-item
+				  	=link_to "Настройки системы", 
+				  	settings_path

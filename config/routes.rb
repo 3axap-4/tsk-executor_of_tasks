@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'users/index'
+
   get 'carts/add_item' => 'carts#add_item'
   delete 'carts/delete_item' => 'carts#delete_item'
   get 'carts/show'
@@ -19,6 +21,8 @@ Rails.application.routes.draw do
   resources :task_statuses
   resources :clients
   devise_for :users
+
+  match 'users/:id' => 'users#destroy', :via => :delete, :as => :admin_destroy_user
   #resources :pages
   match 'pages/index' => 'pages#index', :via => :get
   match 'pages/control_panel' => 'pages#control_panel', :via => :get

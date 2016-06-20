@@ -13,7 +13,8 @@
         th ФИО представителя
         th Сайт
         th Описание
-        th Последне посещение
+        -if current_user.is_admin?
+          th Последне посещение
         th
         th
         th
@@ -26,7 +27,8 @@
           td = client.fio
           td = client.site
           td = client.description
-          td = client.last_in
+          -if current_user.is_admin?
+            td = client.user.last_sign_in_at
 
           td.text-center 
             = link_to 'Просмотр', client, 

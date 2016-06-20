@@ -108,6 +108,12 @@ GEM
     nokogiri (1.6.7.2-x86-mingw32)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
+    r18n-core (2.1.4)
+    r18n-rails (2.1.4)
+      r18n-rails-api (= 2.1.4)
+    r18n-rails-api (2.1.4)
+      i18n
+      r18n-core (= 2.1.4)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -218,6 +224,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks
+  r18n-rails
   rails (= 4.2.5.1)
   rspec-rails (~> 2.14.1)
   sass-rails (~> 5.0)

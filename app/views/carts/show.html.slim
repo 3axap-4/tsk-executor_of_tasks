@@ -32,13 +32,17 @@
 									=item.task.client.name
 								td
 									=item.task.title
+								td
+									=number_to_currency(item.task.price)
 					tfoot
 						tr
 							td
 								|Итого
 							td
 							td
-							td 
+							td
+							td
+								= number_to_currency((@cart.cart_items.inject(0){|sum, item| sum += item.task.price}))
 								
 
 

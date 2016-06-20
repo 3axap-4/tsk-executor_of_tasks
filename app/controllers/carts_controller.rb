@@ -16,7 +16,10 @@ class CartsController < ApplicationController
   def add_item 
     if(params.has_key?(:task_id) && Task.exists?(params[:task_id]) && is_task_belongs_current_user?(params[:task_id]))
       respond_to do |format|
-        if(CartItem.exists?(cart_id: @cart.id, task_id: params[:task_id]))
+
+        if(Task.find(params[:task_id]).price == 0)
+          format.html { redirect_to :back, alert: 'Нельзя добавлять в корзину задачу с неустановленной ценой' }
+        elsif(CartItem.exists?(cart_id: @cart.id, task_id: params[:task_id]))
           format.html { redirect_to :back, alert: 'Данная задача уже добавленная в корзину' }
         else
           @cart.cart_items << CartItem.create(cart_id: @cart.id, task_id: params[:task_id])

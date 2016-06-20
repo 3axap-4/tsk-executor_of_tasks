@@ -47,8 +47,9 @@ describe CartsController do
 				@user = session[:user]							
 				@client1 = FactoryGirl.create(:client, user: @user)
 				@client2 = FactoryGirl.create(:client)
-			    @task_client1  = FactoryGirl.create(:task, client: @client1)
-			    @task_client2  = FactoryGirl.create(:task, client: @client2)
+			    @task_client1  = FactoryGirl.create(:task, client: @client1, price: 1)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2, price: 0)
+			    @task_client1_no_price  = FactoryGirl.create(:task, client: @client1, price: 0)
 			end		
 
 			it "create new cart if cart don't create before" do
@@ -91,6 +92,20 @@ describe CartsController do
 				CartItem.where("cart_id = ? AND task_id = ?", cart.id, @task_client1.id).count.should == 1			
 			end
 
+			it "do not add item to cart only if price = 0" do
+				get :add_item, task_id: @task_client1_no_price.id
+				cart = Cart.where("user_id = ?", @user.id).first
+				CartItem.where("cart_id = ? AND task_id = ?", cart.id, @task_client1_no_price.id).count.should == 0			
+			end
+
+			it "add item to cart only if price greater 0" do
+				@task_client1_no_price.price = 2
+				@task_client1_no_price.save
+				get :add_item, task_id: @task_client1_no_price.id
+				cart = Cart.where("user_id = ?", @user.id).first
+				CartItem.where("cart_id = ? AND task_id = ?", cart.id, @task_client1_no_price.id).count.should == 1			
+			end
+
 			it "render 404 if try add to cart task that not belong to current user" do
 				get :add_item, task_id: @task_client2.id
 				response.status.should == 404
@@ -107,11 +122,11 @@ describe CartsController do
 				@user = session[:user]	
 				cart = FactoryGirl.create(:cart, user: @user)						
 				@client1 = FactoryGirl.create(:client, user: @user)
-			    @task_client1  = FactoryGirl.create(:task, client: @client1)
+			    @task_client1  = FactoryGirl.create(:task, client: @client1, price: 0)
 			    @cart_item1 = FactoryGirl.create(:cart_item, task: @task_client1, cart: cart)
 
 			    @client2 = FactoryGirl.create(:client)
-			    @task_client2  = FactoryGirl.create(:task, client: @client2)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2, price: 0)
 			    @cart_item2 = FactoryGirl.create(:cart_item, task: @task_client2)
 			end	
 
@@ -143,11 +158,11 @@ describe CartsController do
 				@user = session[:user]	
 				cart = FactoryGirl.create(:cart, user: @user)						
 				@client1 = FactoryGirl.create(:client, user: @user)
-			    @task_client1  = FactoryGirl.create(:task, client: @client1)
+			    @task_client1  = FactoryGirl.create(:task, client: @client1, price: 0)
 			    @cart_item1 = FactoryGirl.create(:cart_item, task: @task_client1, cart: cart)
 
 			    @client2 = FactoryGirl.create(:client)
-			    @task_client2  = FactoryGirl.create(:task, client: @client2)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2, price: 0)
 			    @cart_item2 = FactoryGirl.create(:cart_item, task: @task_client2)
 			end	
 
@@ -168,11 +183,11 @@ describe CartsController do
 				@user = session[:user]	
 				cart = FactoryGirl.create(:cart, user: @user)						
 				@client1 = FactoryGirl.create(:client, user: @user)
-			    @task_client1  = FactoryGirl.create(:task, client: @client1)
+			    @task_client1  = FactoryGirl.create(:task, client: @client1, price: 0)
 			    @cart_item1 = FactoryGirl.create(:cart_item, task: @task_client1, cart: cart)
 
 			    @client2 = FactoryGirl.create(:client)
-			    @task_client2  = FactoryGirl.create(:task, client: @client2)
+			    @task_client2  = FactoryGirl.create(:task, client: @client2, price: 0)
 			    @cart_item2 = FactoryGirl.create(:cart_item, task: @task_client2)
 			end	
 
@@ -191,7 +206,6 @@ describe CartsController do
 				response.should redirect_to "/tasks"
 			end
 		end
-
 	end
 
 	describe "For new user" do

@@ -15,10 +15,10 @@ describe CommentsController do
 			before(:each) do
 				@user = session[:user]
 				@client1 = FactoryGirl.create(:client, user: @user)
-			    @task1 = FactoryGirl.create(:task, client: @client1)
+			    @task1 = FactoryGirl.create(:task, client: @client1, price: 0)
 
 				@client2 = FactoryGirl.create(:client)
-			    @task2 = FactoryGirl.create(:task, client: @client2)
+			    @task2 = FactoryGirl.create(:task, client: @client2, price: 0)
 			end
 
 			it "should respond status 200 after ajax request" do
@@ -49,10 +49,10 @@ describe CommentsController do
 		before(:each) do
 			@admin = session[:user]
 			@client1 = FactoryGirl.create(:client, user: @admin)
-		    @task1 = FactoryGirl.create(:task, client: @client1)
+		    @task1 = FactoryGirl.create(:task, client: @client1, price: 0)
 
 			@client2 = FactoryGirl.create(:client)
-		    @task2 = FactoryGirl.create(:task, client: @client2)
+		    @task2 = FactoryGirl.create(:task, client: @client2, price: 0)
 		end
 
 		describe "Create" do
@@ -85,7 +85,7 @@ describe CommentsController do
 
 			before(:each) do
 				@client1 = FactoryGirl.create(:client)
-			    @task1 = FactoryGirl.create(:task, client: @client1)
+			    @task1 = FactoryGirl.create(:task, client: @client1, price: 0)
 			end
 
 			it "create should redirect sign in" do				

@@ -14,8 +14,13 @@ class ApplicationController < ActionController::Base
 		redirect_to :new_user_session if !user_signed_in?
 	end
 
+	def check_sign_in_admin
+		redirect_to :new_user_session if !user_signed_in? || !current_user.is_admin?
+	end
+
 	def configure_permitted_perameters
-		 devise_parameter_sanitizer.permit(:account_update, keys: [:is_admin])
+		devise_parameter_sanitizer.permit(:sign_up, keys: [:fio])
+		 devise_parameter_sanitizer.permit(:account_update, keys: [:is_admin, :fio])
 	end
 
 	def render_404

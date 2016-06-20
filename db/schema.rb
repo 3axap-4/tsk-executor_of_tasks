@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160612115040) do
+ActiveRecord::Schema.define(version: 20160619194649) do
 
   create_table "attachments", force: :cascade do |t|
     t.integer  "task_id"
@@ -72,8 +72,9 @@ ActiveRecord::Schema.define(version: 20160612115040) do
     t.string   "description"
     t.integer  "client_id"
     t.integer  "task_status_id"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.datetime "created_at",                                           null: false
+    t.datetime "updated_at",                                           null: false
+    t.decimal  "price",          precision: 8, scale: 2, default: 0.0, null: false
   end
 
   create_table "users", force: :cascade do |t|
@@ -90,6 +91,7 @@ ActiveRecord::Schema.define(version: 20160612115040) do
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
     t.boolean  "is_admin"
+    t.string   "fio"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true

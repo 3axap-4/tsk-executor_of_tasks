@@ -18,10 +18,27 @@
   br
   .field
     = f.label "Профиль"
-    = f.collection_select :client_id, @clients, :id, :name, {},class: "form-control"
+    = f.collection_select :client_id, @clients || [], :id, :name, {},class: "form-control"
    
+  - if !current_user.is_admin?
+    br
+    .field
+      = f.label "Стоимость"
+      = f.number_field :price, class: "form-control", disabled: true
+
+  - if current_user.is_admin?
+    br
+    = f.label "Стоимость"
+    = f.number_field :price, class: "form-control"
+    
+    br
+    .field
+      = f.label "Статус"
+      = f.collection_select :task_status_id, @statuses, :id, :name, {},class: "form-control"
+
+
   br
-  -if !@task.attachments.empty?
+  - if !@task.attachments.empty?
     .panel.panel-default
       .panel-heading
           |Вложения загруженные

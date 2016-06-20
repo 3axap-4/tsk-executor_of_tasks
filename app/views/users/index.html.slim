@@ -1,0 +1,36 @@
+.container
+  h2 Пользователи
+  br
+  = link_to 'Назад',  pages_control_panel_url, class: "btn btn-default"
+  br
+  br
+  table.table.table-bordered
+    thead
+      tr
+        th ФИО
+        th email
+        th Последне посещение
+        th
+        th
+        th
+
+    tbody
+    -if !@users.nil?
+      - @users.each do |user|
+        tr
+          td = user.fio
+          td = user.email
+          td = user.last_sign_in_at
+
+          td.text-center 
+            = link_to 'Просмотр', edit_user_registration_path(user), 
+            class: "btn btn-default"
+
+          td.text-center 
+            = link_to 'Редактировать', edit_user_registration_path(user),
+            class: "btn btn-default"
+
+          td.text-center 
+            = link_to 'Удалить', admin_destroy_user_path(user), 
+            data: {:confirm => 'Вы уверены?'}, :method => :delete, 
+            class: "btn btn-danger"

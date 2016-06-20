@@ -16,6 +16,14 @@
           br
 
           .field
+            = f.label "ФИО"
+            br
+            == f.text_field :fio, autofocus: true, 
+            class: "input form-control"
+
+          br
+
+          .field
             == f.label "Пароль"       
             br
             == f.password_field :password, autocomplete: "off", 

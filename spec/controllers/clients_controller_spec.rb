@@ -17,8 +17,8 @@ describe ClientsController do
 
 	def create_valid_client(user)
 		post :create, client: {name: "name_test", fio: "fio_test", user: user}
-				expect(subject).to redirect_to :action => :show,
-                                     :id => assigns(:client).id
+		expect(subject).to redirect_to :action => :show,
+                                     	:id => assigns(:client).id
 	end
 
 	def edit_valid_client(id)

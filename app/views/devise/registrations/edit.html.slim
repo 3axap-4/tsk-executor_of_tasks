@@ -18,6 +18,13 @@
               |Currently waiting confirmation for: 
                 = resource.unconfirmed_email 
           br
+
+          .field
+            = f.label "ФИО"
+            br
+            = f.text_field :fio, autofocus: true, class: "form-control"
+          br
+
           .field
             = f.label "Пароль"
             br
