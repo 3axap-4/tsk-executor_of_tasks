@@ -1,6 +1,8 @@
 .panel.panel-default
 	.panel-heading
 		=@comment.user.email
+		- if current_user.is_admin?
+			= current_user.fio
 	.panel-body
 		=@comment.body					
 	hr		

@@ -31,7 +31,7 @@ class CommentsController < ApplicationController
 			render_404
 		else
 		 	@task = Task.find(params[:task_id])
-		 	if(@task.client.user_id != current_user.id)
+		 	if(@task.client.user_id != current_user.id && !current_user.is_admin?)
 		 		render_404
 		 	end
 		end					

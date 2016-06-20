@@ -18,7 +18,8 @@ html
   				form.navbar-form.navbar-right role="search"
 	  				-if user_signed_in?
 	  					span#greetings
-	  						|Здравствуйте! #{current_user.email}
+	  						|Здравствуйте! 
+	  						= link_to current_user.email, pages_control_panel_path
 
 	  					.form-group
 							=link_to(content_tag(:span, 'Выйти', class: "span glyphicon.glyphicon-log-out"), 

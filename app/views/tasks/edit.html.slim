@@ -20,7 +20,8 @@
 								=c.user.email 
 								'
 								-if(c.user.is_admin?)
-									|(Администратор)
+									|(Администратор) 
+									= c.user.fio
 								|&nbsp;-&nbsp;
 								=c.created_at.strftime("%F %H:%M")
 							.panel-body
